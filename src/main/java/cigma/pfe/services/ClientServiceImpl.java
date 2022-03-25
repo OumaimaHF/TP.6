@@ -1,5 +1,5 @@
-package cigma.pfe.controllers.services;
-import cigma.pfe.controllers.repositories.ClientRepository;
+package cigma.pfe.services;
+import cigma.pfe.repositories.ClientRepository;
 import cigma.pfe.models.Client;
 
 public class ClientServiceImpl implements ClientService
