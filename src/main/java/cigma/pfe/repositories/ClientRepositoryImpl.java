@@ -1,4 +1,4 @@
-package cigma.pfe.repositories;
+package cigma.pfe.controllers.repositories;
 
 import cigma.pfe.models.Client;
 

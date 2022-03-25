@@ -1,4 +1,4 @@
-package cigma.pfe.models;
+package cigma.pfe.controllers.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

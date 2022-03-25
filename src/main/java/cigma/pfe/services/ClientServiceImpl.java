@@ -1,7 +1,5 @@
-package cigma.pfe.services;
-import cigma.pfe.repositories.ClientRepositoryImpl;
-import cigma.pfe.repositories.ClientRepository;
-import cigma.pfe.services.ClientService;
+package cigma.pfe.controllers.services;
+import cigma.pfe.controllers.repositories.ClientRepository;
 import cigma.pfe.models.Client;
 
 public class ClientServiceImpl implements ClientService
@@ -12,8 +10,6 @@ public class ClientServiceImpl implements ClientService
     {
         System.out.println(" Service Layer : ClientServiceImpl Level..");
         return clientRepository.save(clt);
-
-
     }
     public ClientServiceImpl()
     {
